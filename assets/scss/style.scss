@@ -1,0 +1,147 @@
+/*------------------------------------------------------------------
+ [Master Stylesheet]
+
+  Project:	Star Admin Bootstrap Template [Pro Version]
+  Version:	1.0
+-------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------*/
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+//@import "../../node_modules/bootstrap/scss/bootstrap";
+
+/* === Import Bootstrap functions and variables === */
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+/*-------------------------------------------------------------------*/
+
+
+/* === Import template variables === */
+
+@import "variables";
+
+/*-------------------------------------------------------------------*/
+
+
+/* === SCSS Compass Functions === */
+
+@import "../../node_modules/compass-mixins/lib/compass";
+@import "../../node_modules/compass-mixins/lib/animate";
+
+/*-------------------------------------------------------------------*/
+
+
+/* === Boostrap Main SCSS === */
+
+@import "../../node_modules/bootstrap-vue/src/index.scss";
+//@import "../../node_modules/vue2-datepicker/scss/index";
+
+/*-------------------------------------------------------------------*/
+
+
+/* === Template mixins === */
+
+@import "mixins/animation";
+@import "mixins/accordions";
+@import "mixins/background";
+@import "mixins/badges";
+@import "mixins/blockqoute";
+@import "mixins/breadcrumbs";
+@import "mixins/buttons";
+@import "mixins/cards";
+@import "mixins/misc";
+@import "mixins/no-ui-slider";
+@import "mixins/pagination";
+@import "mixins/text";
+@import "mixins/popovers";
+@import "mixins/tabs";
+@import "mixins/tooltips";
+
+/*-------------------------------------------------------------------*/
+
+
+/* === Core Styles === */
+
+@import "reset";
+@import "fonts";
+@import "functions";
+@import "sidebar";
+@import "navbar";
+@import "settings-panel";
+@import "typography";
+@import "misc";
+@import "footer";
+@import "utilities";
+@import "background";
+@import "demo";
+
+/*-------------------------------------------------------------------*/
+
+
+/* === Components === */
+
+@import "components/accordions";
+@import "components/badges";
+@import "components/bootstrap-progress";
+@import "components/breadcrumbs";
+@import "components/buttons";
+@import "components/cards";
+@import "components/carousel";
+@import "components/checkbox-radio";
+@import "components/dropdown";
+@import "components/forms";
+@import "components/icons";
+@import "components/pagination";
+@import "components/preview";
+@import "components/tables";
+@import "components/tabs";
+@import "components/todo-list";
+@import "components/lists";
+@import "components/loaders/loaders";
+@import "components/multi-level-login";
+@import "components/new-account";
+@import "components/timeline/timeline-horizontal";
+@import "components/timeline/timeline-vertical";
+@import "components/portfolio";
+@import "components/pricing-table";
+@import "components/nav";
+@import "components/user-profile";
+@import "components/tickets";
+@import "components/kanban";
+@import "components/chats";
+@import "components/widgets";
+@import "components/product-tile";
+@import "components/project-list";
+@import "components/dashboard";
+
+/*-------------------------------------------------------------------*/
+
+
+/* === Plugin override === */
+
+@import "components/plugin-overrides/full-calendar";
+@import "components/plugin-overrides/chartist";
+@import "components/plugin-overrides/datepicker";
+@import "components/plugin-overrides/snotify";
+@import "components/plugin-overrides/blueimp-gallery";
+@import "components/plugin-overrides/vue-good-wizard";
+@import "components/plugin-overrides/vue-context";
+@import "components/plugin-overrides/slick";
+
+/*-------------------------------------------------------------------*/
+
+
+/* === Landing screens === */
+
+@import "landing-screens/auth";
+@import "landing-screens/error";
+@import "landing-screens/profile-page";
+@import "components/mail-components/mail-list-container";
+@import "components/mail-components/mail-sidebar";
+@import "components/mail-components/messagecontent";
+@import "layout";
+@import "animation";

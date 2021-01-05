@@ -1,0 +1,33 @@
+{
+  "name": "crud-front",
+  "version": "1.0.0",
+  "description": "My funkadelic Nuxt.js project",
+  "author": "lkotan",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.4",
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.21.2",
+    "moment": "^2.29.1",
+    "nuxt": "^2.0.0",
+    "ti-icons": "^0.1.2",
+    "v-mask": "^2.2.3",
+    "vue": "^2.6.12",
+    "vue-confirm-dialog": "^1.0.2",
+    "vue2-editor": "^2.10.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "compass-mixins": "^0.12.10",
+    "install": "^0.13.0",
+    "npm": "^6.14.10",
+    "sass": "^1.32.0",
+    "sass-loader": "^10.1.0"
+  }
+}

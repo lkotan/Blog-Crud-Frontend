@@ -1,0 +1,59 @@
+.multi-level-login {
+  background: #f2edf3;
+  .wizard {
+    width: 50%;
+    .wizard__body {
+      min-height: auto;
+      border: none;
+      border-radius: 10px;
+      padding: 30px 40px;
+      .wizard__body__actions {
+        position: relative;
+        background: transparent;
+        border: none;
+        height: 40px;
+        a {
+          background: #b66dff;
+          width: 100px;
+          line-height: 40px;
+          &:hover {
+            color: #ffffff;
+          }
+        }
+        .wizard__back {
+          display: none;
+        }
+        .wizard__next {
+          &.final-step {
+            display: none;
+          }
+          .vgw-icon {
+            &:after {
+              display: none;
+            }
+          }
+        }
+      }
+      .wizard__body__step {
+        padding: 0;
+        .form-group {
+          .forn-control {
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+    .wizard__step {
+      height: 50px;
+      .wizard__step__line {
+        display: none;
+      }
+      .wizard__step__indicator {
+        border: none;
+      }
+    } 
+    .wizard__arrow {
+      display: none;
+    }
+  }
+}

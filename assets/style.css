@@ -1,0 +1,55 @@
+.v-messages__message {
+  color: red !important;
+}
+
+.v-dialog__content.v-dialog__content--active {
+  z-index: 999999999 !important;
+}  
+.row-modal{
+  margin-bottom: -20px;
+}
+.card-background {
+  background: #e4e4e4 !important;
+  border-radius: 4px !important;
+}
+.parent-background {
+  background: #ededed !important;
+}
+.detail {
+  cursor: pointer;
+}
+.detail:hover {
+  background: #f5f5f5;
+}
+.btn-dropdown ul {
+  padding: .5rem !important;
+}
+
+.btn-dropdown button {
+  color: #fff;
+}
+
+[role="columnheader"] {
+  font-size: 1rem !important;
+  color: #dc6822 !important;
+}
+
+.v-input{
+  font-size:12px !important;
+}
+
+.v-text-field--outlined.v-input--is-focused fieldset, .v-text-field--outlined.v-input--has-state fieldset{
+  border-width: 1px !important;
+}
+.v-text-field--outlined:not(.v-input--has-state):not(.v-input--is-focused) fieldset{
+  border-color: #dcdcdc !important;
+}
+
+.v-tooltip__content {
+  font-size: 0.7rem !important;
+  display: flex;
+  align-items: center!important;
+  padding: 2px 6px !important;
+  background-color: rgb(23, 43, 77) !important;
+  line-height: 1.7 !important;
+}

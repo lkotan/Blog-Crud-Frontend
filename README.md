@@ -1,5 +1,5 @@
 # crud-front
-
+Güzel bir proje oldu
 > My funkadelic Nuxt.js project
 
 ## Build Setup
